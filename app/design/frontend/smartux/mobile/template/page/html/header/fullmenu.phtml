@@ -1,5 +1,6 @@
 <?php
 $category = Mage::getSingleton('catalog/layer')->getCurrentCategory();
+$customer = Mage::getSingleton('customer/session')->getCustomer();
 $categories = $category->getCollection()
     ->addAttributeToSelect(array('name', 'thumbnail'))
     ->addAttributeToFilter('is_active', 1)
