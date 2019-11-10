@@ -1,2 +1,3 @@
 /app/etc/local.xml
-/skin/frontend/mobile/node_modules/ 
+/skin/frontend/smartux/default/node_modules/ 
+# /skin/frontend/smartux/mobile/node_modules/ 
