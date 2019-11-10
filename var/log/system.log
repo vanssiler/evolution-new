@@ -99,3 +99,7 @@ error:14077410:SSL routines:SSL23_GET_SERVER_HELLO:sslv3 alert handshake failure
 2019-11-10T09:33:48+00:00 ERR (3): Notice: Undefined variable: customer  in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/design/frontend/smartux/mobile/template/page/html/header/fullmenu.phtml on line 11
 2019-11-10T09:35:54+00:00 ERR (3): Notice: Undefined variable: customer  in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/design/frontend/smartux/mobile/template/page/html/header/fullmenu.phtml on line 11
 2019-11-10T09:36:23+00:00 ERR (3): Notice: Undefined variable: customer  in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/design/frontend/smartux/mobile/template/page/html/header/fullmenu.phtml on line 11
+2019-11-10T10:00:30+00:00 DEBUG (7): pedroteixeira_correios [337]: URL Error - Read timed out after 20 seconds
+2019-11-10T10:00:33+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/community/PedroTeixeira/Correios/Model/Carrier/CorreiosMethod.php on line 764
+2019-11-10T10:00:48+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/community/PedroTeixeira/Correios/Model/Carrier/CorreiosMethod.php on line 764
+2019-11-10T10:01:10+00:00 DEBUG (7): pedroteixeira_correios [337]: URL Error - Read timed out after 20 seconds

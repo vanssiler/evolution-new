@@ -3,9 +3,32 @@
 #loader{position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(255,255,255,.6); z-index: 999999; display: none}
 #loader img{position: absolute; top: 50%; left: 50%; margin: -25px 0 0 -25px;}
 
-.cart .page-title{display: table; width: 100%; max-width: 100%; padding: 10px; background: #f1f1f1; margin-bottom: 20px;}
-.cart .page-title h1{float: left; font-size: 22px; line-height: 40px; text-transform: uppercase; margin: 0}
-.cart .page-title ul{float: right}
+.checkout-cart-index{
+    .menuicon{
+        display: none;
+    }
+    .logo{
+        margin: 0 auto;
+    }
+}
+.cart .page-title{
+    padding: 10px;
+    background: #f1f1f1;
+    margin-bottom: 20px;
+    margin: 0 -15px 20px;
+    display: block;
+    text-align: center;
+    h1{
+        display: block; 
+        font-size: 18px; 
+        line-height: 30px; 
+        text-transform: uppercase; 
+        margin: 0 0 15px
+    }
+    ul{
+        display: block;
+    }
+}
 
 .cart-col-wrapper{font-size: 0}
 .cart-col-wrapper li{font-size: 13px; display: inline-block; vertical-align: middle; padding: 5px 10px;}
@@ -15,7 +38,11 @@
 .cart .col-3{width: 15%;}
 .cart .col-4{width: 15%; text-align: right}
 
-.cart-thead{background: #333}
+.cart-thead{
+    display: none;
+    background: #333; 
+    font-size: 13px;
+}
 .cart-thead li{color: #fff; text-transform: uppercase} 
 
 .cart-body{margin-bottom: 50px; padding-bottom: 50px; border-bottom: 1px solid #ccc}
@@ -94,4 +121,4 @@
 .crosssell{margin-bottom: 50px;}
 
 .cart-continue{padding: 10px; background: #f1f1f1;}
-.checkout-types .btn-proceed-checkout{float: right}
+.checkout-types .btn-proceed-checkout{display: block; width: 100%}
