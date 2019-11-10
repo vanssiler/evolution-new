@@ -103,3 +103,17 @@ error:14077410:SSL routines:SSL23_GET_SERVER_HELLO:sslv3 alert handshake failure
 2019-11-10T10:00:33+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/community/PedroTeixeira/Correios/Model/Carrier/CorreiosMethod.php on line 764
 2019-11-10T10:00:48+00:00 ERR (3): Warning: Invalid argument supplied for foreach()  in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/community/PedroTeixeira/Correios/Model/Carrier/CorreiosMethod.php on line 764
 2019-11-10T10:01:10+00:00 DEBUG (7): pedroteixeira_correios [337]: URL Error - Read timed out after 20 seconds
+2019-11-10T11:43:30+00:00 ERR (3): Warning: file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14077410:SSL routines:SSL23_GET_SERVER_HELLO:sslv3 alert handshake failure  in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/community/Mundipagg/Paymentmodule/Model/BankCodes.php on line 8
+2019-11-10T11:43:30+00:00 ERR (3): Warning: file_get_contents(): Failed to enable crypto  in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/community/Mundipagg/Paymentmodule/Model/BankCodes.php on line 8
+2019-11-10T11:43:30+00:00 ERR (3): Warning: file_get_contents(https://dashboard.mundipagg.com/emb/bank_info.json): failed to open stream: operation failed  in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/community/Mundipagg/Paymentmodule/Model/BankCodes.php on line 8
+2019-11-10T11:43:40+00:00 ERR (3): Warning: file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14077410:SSL routines:SSL23_GET_SERVER_HELLO:sslv3 alert handshake failure  in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/community/Mundipagg/Paymentmodule/Model/BankCodes.php on line 8
+2019-11-10T11:43:40+00:00 ERR (3): Warning: file_get_contents(): Failed to enable crypto  in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/community/Mundipagg/Paymentmodule/Model/BankCodes.php on line 8
+2019-11-10T11:43:40+00:00 ERR (3): Warning: file_get_contents(https://dashboard.mundipagg.com/emb/bank_info.json): failed to open stream: operation failed  in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/community/Mundipagg/Paymentmodule/Model/BankCodes.php on line 8
+2019-11-10T11:45:28+00:00 DEBUG (7): pedroteixeira_correios [87]: Invalid Zip Code
+2019-11-10T11:45:28+00:00 DEBUG (7): pedroteixeira_correios [87]: Invalid Zip Code
+2019-11-10T11:45:30+00:00 DEBUG (7): pedroteixeira_correios [87]: Invalid Zip Code
+2019-11-10T11:45:30+00:00 DEBUG (7): pedroteixeira_correios [87]: Invalid Zip Code
+2019-11-10T11:45:39+00:00 DEBUG (7): pedroteixeira_correios [87]: Invalid Zip Code
+2019-11-10T11:45:40+00:00 DEBUG (7): pedroteixeira_correios [87]: Invalid Zip Code

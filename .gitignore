@@ -1,3 +1,4 @@
 /app/etc/local.xml
 /skin/frontend/smartux/default/node_modules/ 
 /skin/frontend/smartux/mobile/node_modules/ 
+/var/cache/
