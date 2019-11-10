@@ -53,11 +53,6 @@
             </default_setup>
         </resources>
         <session_save><![CDATA[files]]></session_save>
-        <checkout_onepage_review>
-            <reference name="checkout.onepage.review.info.items.after">
-                <remove name="payment.form.directpost" />
-            </reference>
-        </checkout_onepage_review>
     </global>
     <admin>
         <routers>

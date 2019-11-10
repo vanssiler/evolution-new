@@ -40,7 +40,7 @@
             </db>
             <default_setup>
                 <connection>
-                    <host><![CDATA[evolutiondb.c97loeubob4m.us-east-1.rds.amazonaws.com]]></host>
+                    <host><![CDATA[http://evolutiondb.c97loeubob4m.us-east-1.rds.amazonaws.com/]]></host>
                     <username><![CDATA[admin]]></username>
                     <password><![CDATA[tHQnU2RvEaFtVa2kr1vD]]></password>
                     <dbname><![CDATA[evolution]]></dbname>
@@ -53,11 +53,6 @@
             </default_setup>
         </resources>
         <session_save><![CDATA[files]]></session_save>
-        <checkout_onepage_review>
-            <reference name="checkout.onepage.review.info.items.after">
-                <remove name="payment.form.directpost" />
-            </reference>
-        </checkout_onepage_review>
     </global>
     <admin>
         <routers>
