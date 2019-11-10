@@ -1,0 +1,468 @@
+2019-11-10T05:08:31+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(205): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(998): Mage_Catalog_Model_Resource_Abstract->_setAttributeValue(Object(Mage_Catalog_Model_Product), Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(959): Mage_Eav_Model_Entity_Abstract->_loadModelAttributes(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 29, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 29, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product.php(320): Mage_Core_Model_Abstract->load(29)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product/View.php(121): Mage_Catalog_Helper_Product->initProduct(29, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(29, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#14 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#15 {main}
+2019-11-10T05:09:20+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(205): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(998): Mage_Catalog_Model_Resource_Abstract->_setAttributeValue(Object(Mage_Catalog_Model_Product), Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(959): Mage_Eav_Model_Entity_Abstract->_loadModelAttributes(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 29, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 29, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product.php(320): Mage_Core_Model_Abstract->load(29)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product/View.php(121): Mage_Catalog_Helper_Product->initProduct(29, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(29, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#14 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#15 {main}
+2019-11-10T05:09:26+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(205): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(998): Mage_Catalog_Model_Resource_Abstract->_setAttributeValue(Object(Mage_Catalog_Model_Product), Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(959): Mage_Eav_Model_Entity_Abstract->_loadModelAttributes(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 29, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 29, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product.php(320): Mage_Core_Model_Abstract->load(29)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product/View.php(121): Mage_Catalog_Helper_Product->initProduct(29, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(29, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#14 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#15 {main}
+2019-11-10T05:14:02+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(640): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1641): Mage_Eav_Model_Entity_Abstract->walkAttributes('backend/afterLo...', Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(964): Mage_Eav_Model_Entity_Abstract->_afterLoad(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 142, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 142, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product.php(320): Mage_Core_Model_Abstract->load(142)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product/View.php(121): Mage_Catalog_Helper_Product->initProduct(142, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(142, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#14 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#15 {main}
+2019-11-10T05:14:48+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(205): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(998): Mage_Catalog_Model_Resource_Abstract->_setAttributeValue(Object(Mage_Catalog_Model_Product), Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(959): Mage_Eav_Model_Entity_Abstract->_loadModelAttributes(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 29, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 29, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product.php(320): Mage_Core_Model_Abstract->load(29)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product/View.php(121): Mage_Catalog_Helper_Product->initProduct(29, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(29, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#14 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#15 {main}
+2019-11-10T05:14:54+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(205): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(998): Mage_Catalog_Model_Resource_Abstract->_setAttributeValue(Object(Mage_Catalog_Model_Product), Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(959): Mage_Eav_Model_Entity_Abstract->_loadModelAttributes(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 29, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 29, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product.php(320): Mage_Core_Model_Abstract->load(29)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product/View.php(121): Mage_Catalog_Helper_Product->initProduct(29, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(29, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#14 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#15 {main}
+2019-11-10T05:15:25+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(640): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1641): Mage_Eav_Model_Entity_Abstract->walkAttributes('backend/afterLo...', Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(964): Mage_Eav_Model_Entity_Abstract->_afterLoad(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 154, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 154, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/controllers/Catalog/ProductController.php(92): Mage_Core_Model_Abstract->load(154)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/controllers/Catalog/ProductController.php(238): Mage_Adminhtml_Catalog_ProductController->_initProduct()
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_Catalog_ProductController->editAction()
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#14 {main}
+2019-11-10T05:15:38+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(640): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1641): Mage_Eav_Model_Entity_Abstract->walkAttributes('backend/afterLo...', Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(964): Mage_Eav_Model_Entity_Abstract->_afterLoad(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 154, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 154, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/controllers/Catalog/ProductController.php(92): Mage_Core_Model_Abstract->load(154)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/controllers/Catalog/ProductController.php(238): Mage_Adminhtml_Catalog_ProductController->_initProduct()
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_Catalog_ProductController->editAction()
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#14 {main}
+2019-11-10T05:20:23+00:00 ERR (3): 
+Exception: Error during unserialization in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/lib/Unserialize/Parser.php:60
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Helper/UnserializeArray.php(44): Unserialize_Parser->unserialize(Object(Mage_Core_Model_Config_Element))
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/Model/System/Config/Backend/Serialized.php(37): Mage_Core_Helper_UnserializeArray->unserialize(Object(Mage_Core_Model_Config_Element))
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Config/Data.php(78): Mage_Adminhtml_Model_System_Config_Backend_Serialized->_afterLoad()
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/Block/System/Config/Form.php(334): Mage_Core_Model_Config_Data->afterLoad()
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/Block/System/Config/Form.php(229): Mage_Adminhtml_Block_System_Config_Form->initFields(Object(Varien_Data_Form_Element_Fieldset), Object(Mage_Core_Model_Config_Element), Object(Mage_Core_Model_Config_Element))
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/Block/System/Config/Form.php(164): Mage_Adminhtml_Block_System_Config_Form->_initGroup(Object(Varien_Data_Form), Object(Mage_Core_Model_Config_Element), Object(Mage_Core_Model_Config_Element))
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/Block/System/Config/Edit.php(92): Mage_Adminhtml_Block_System_Config_Form->initForm()
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(107): Mage_Adminhtml_Block_System_Config_Edit->initForm()
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_System_ConfigController->editAction()
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#14 {main}
+2019-11-10T05:21:05+00:00 ERR (3): 
+Exception: Error during unserialization in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/lib/Unserialize/Parser.php:60
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Helper/UnserializeArray.php(44): Unserialize_Parser->unserialize(Object(Mage_Core_Model_Config_Element))
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/Model/System/Config/Backend/Serialized.php(37): Mage_Core_Helper_UnserializeArray->unserialize(Object(Mage_Core_Model_Config_Element))
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Config/Data.php(78): Mage_Adminhtml_Model_System_Config_Backend_Serialized->_afterLoad()
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/Block/System/Config/Form.php(334): Mage_Core_Model_Config_Data->afterLoad()
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/Block/System/Config/Form.php(229): Mage_Adminhtml_Block_System_Config_Form->initFields(Object(Varien_Data_Form_Element_Fieldset), Object(Mage_Core_Model_Config_Element), Object(Mage_Core_Model_Config_Element))
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/Block/System/Config/Form.php(164): Mage_Adminhtml_Block_System_Config_Form->_initGroup(Object(Varien_Data_Form), Object(Mage_Core_Model_Config_Element), Object(Mage_Core_Model_Config_Element))
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/Block/System/Config/Edit.php(92): Mage_Adminhtml_Block_System_Config_Form->initForm()
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(107): Mage_Adminhtml_Block_System_Config_Edit->initForm()
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_System_ConfigController->editAction()
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#14 {main}
+2019-11-10T05:24:20+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(205): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(998): Mage_Catalog_Model_Resource_Abstract->_setAttributeValue(Object(Mage_Catalog_Model_Product), Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(959): Mage_Eav_Model_Entity_Abstract->_loadModelAttributes(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 42, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 42, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product.php(320): Mage_Core_Model_Abstract->load(42)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product/View.php(121): Mage_Catalog_Helper_Product->initProduct(42, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(42, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#14 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#15 {main}
+2019-11-10T05:24:25+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(205): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(998): Mage_Catalog_Model_Resource_Abstract->_setAttributeValue(Object(Mage_Catalog_Model_Product), Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(959): Mage_Eav_Model_Entity_Abstract->_loadModelAttributes(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 42, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 42, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product.php(320): Mage_Core_Model_Abstract->load(42)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product/View.php(121): Mage_Catalog_Helper_Product->initProduct(42, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(42, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#14 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#15 {main}
+2019-11-10T05:24:47+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(205): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(998): Mage_Catalog_Model_Resource_Abstract->_setAttributeValue(Object(Mage_Catalog_Model_Product), Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(959): Mage_Eav_Model_Entity_Abstract->_loadModelAttributes(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 42, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 42, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product.php(320): Mage_Core_Model_Abstract->load(42)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product/View.php(121): Mage_Catalog_Helper_Product->initProduct(42, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(42, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#14 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#15 {main}
+2019-11-10T05:36:18+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(205): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(998): Mage_Catalog_Model_Resource_Abstract->_setAttributeValue(Object(Mage_Catalog_Model_Product), Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(959): Mage_Eav_Model_Entity_Abstract->_loadModelAttributes(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 42, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 42, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product.php(320): Mage_Core_Model_Abstract->load(42)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product/View.php(121): Mage_Catalog_Helper_Product->initProduct(42, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(42, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#14 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#15 {main}
+2019-11-10T05:38:22+00:00 ERR (3): 
+Exception: Error during unserialization in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/lib/Unserialize/Parser.php:60
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Helper/UnserializeArray.php(44): Unserialize_Parser->unserialize(Object(Mage_Core_Model_Config_Element))
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/Model/System/Config/Backend/Serialized.php(37): Mage_Core_Helper_UnserializeArray->unserialize(Object(Mage_Core_Model_Config_Element))
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Config/Data.php(78): Mage_Adminhtml_Model_System_Config_Backend_Serialized->_afterLoad()
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/Block/System/Config/Form.php(334): Mage_Core_Model_Config_Data->afterLoad()
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/Block/System/Config/Form.php(229): Mage_Adminhtml_Block_System_Config_Form->initFields(Object(Varien_Data_Form_Element_Fieldset), Object(Mage_Core_Model_Config_Element), Object(Mage_Core_Model_Config_Element))
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/Block/System/Config/Form.php(164): Mage_Adminhtml_Block_System_Config_Form->_initGroup(Object(Varien_Data_Form), Object(Mage_Core_Model_Config_Element), Object(Mage_Core_Model_Config_Element))
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/Block/System/Config/Edit.php(92): Mage_Adminhtml_Block_System_Config_Form->initForm()
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(107): Mage_Adminhtml_Block_System_Config_Edit->initForm()
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_System_ConfigController->editAction()
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#14 {main}
+2019-11-10T05:38:54+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(205): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(998): Mage_Catalog_Model_Resource_Abstract->_setAttributeValue(Object(Mage_Catalog_Model_Product), Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(959): Mage_Eav_Model_Entity_Abstract->_loadModelAttributes(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 29, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 29, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product.php(320): Mage_Core_Model_Abstract->load(29)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product/View.php(121): Mage_Catalog_Helper_Product->initProduct(29, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(29, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#14 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#15 {main}
+2019-11-10T05:39:07+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(205): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(998): Mage_Catalog_Model_Resource_Abstract->_setAttributeValue(Object(Mage_Catalog_Model_Product), Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(959): Mage_Eav_Model_Entity_Abstract->_loadModelAttributes(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 29, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 29, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product.php(320): Mage_Core_Model_Abstract->load(29)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product/View.php(121): Mage_Catalog_Helper_Product->initProduct(29, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(29, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#14 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#15 {main}
+2019-11-10T05:39:16+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(205): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(998): Mage_Catalog_Model_Resource_Abstract->_setAttributeValue(Object(Mage_Catalog_Model_Product), Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(959): Mage_Eav_Model_Entity_Abstract->_loadModelAttributes(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 29, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 29, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product.php(320): Mage_Core_Model_Abstract->load(29)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product/View.php(121): Mage_Catalog_Helper_Product->initProduct(29, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(29, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#14 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#15 {main}
+2019-11-10T05:44:07+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(205): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(998): Mage_Catalog_Model_Resource_Abstract->_setAttributeValue(Object(Mage_Catalog_Model_Product), Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(959): Mage_Eav_Model_Entity_Abstract->_loadModelAttributes(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 51, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 51, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product.php(320): Mage_Core_Model_Abstract->load(51)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product/View.php(121): Mage_Catalog_Helper_Product->initProduct(51, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(51, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#14 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#15 {main}
+2019-11-10T05:45:05+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(640): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1641): Mage_Eav_Model_Entity_Abstract->walkAttributes('backend/afterLo...', Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(964): Mage_Eav_Model_Entity_Abstract->_afterLoad(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 142, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 142, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product.php(320): Mage_Core_Model_Abstract->load(142)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product/View.php(121): Mage_Catalog_Helper_Product->initProduct(142, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(142, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#14 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#15 {main}
+2019-11-10T05:45:51+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(205): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(998): Mage_Catalog_Model_Resource_Abstract->_setAttributeValue(Object(Mage_Catalog_Model_Product), Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(959): Mage_Eav_Model_Entity_Abstract->_loadModelAttributes(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 51, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 51, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product.php(320): Mage_Core_Model_Abstract->load(51)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product/View.php(121): Mage_Catalog_Helper_Product->initProduct(51, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(51, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#14 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#15 {main}
+2019-11-10T05:46:08+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(205): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(998): Mage_Catalog_Model_Resource_Abstract->_setAttributeValue(Object(Mage_Catalog_Model_Product), Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(959): Mage_Eav_Model_Entity_Abstract->_loadModelAttributes(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 51, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 51, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product.php(320): Mage_Core_Model_Abstract->load(51)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product/View.php(121): Mage_Catalog_Helper_Product->initProduct(51, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(51, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#14 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#15 {main}
+2019-11-10T05:47:11+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(640): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1641): Mage_Eav_Model_Entity_Abstract->walkAttributes('backend/afterLo...', Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(964): Mage_Eav_Model_Entity_Abstract->_afterLoad(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 142, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 142, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product.php(320): Mage_Core_Model_Abstract->load(142)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Helper/Product/View.php(121): Mage_Catalog_Helper_Product->initProduct(142, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(142, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#14 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#15 {main}
+2019-11-10T05:49:06+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(640): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1641): Mage_Eav_Model_Entity_Abstract->walkAttributes('backend/afterLo...', Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(964): Mage_Eav_Model_Entity_Abstract->_afterLoad(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 159, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 159, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/controllers/Catalog/ProductController.php(92): Mage_Core_Model_Abstract->load(159)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/controllers/Catalog/ProductController.php(238): Mage_Adminhtml_Catalog_ProductController->_initProduct()
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_Catalog_ProductController->editAction()
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#14 {main}
+2019-11-10T05:50:50+00:00 ERR (3): 
+Mage_Eav_Exception: Invalid backend model specified: jvs_fileattribute/attribute_backend_file in /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php:583
+Stack trace:
+#0 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Attribute/Abstract.php(363): Mage::exception('Mage_Eav', 'Invalid backend...')
+#1 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(640): Mage_Eav_Model_Entity_Attribute_Abstract->getBackend()
+#2 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1641): Mage_Eav_Model_Entity_Abstract->walkAttributes('backend/afterLo...', Array)
+#3 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Eav/Model/Entity/Abstract.php(964): Mage_Eav_Model_Entity_Abstract->_afterLoad(Object(Mage_Catalog_Model_Product))
+#4 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Catalog/Model/Resource/Abstract.php(698): Mage_Eav_Model_Entity_Abstract->load(Object(Mage_Catalog_Model_Product), 159, NULL)
+#5 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/Abstract.php(225): Mage_Catalog_Model_Resource_Abstract->load(Object(Mage_Catalog_Model_Product), 159, NULL)
+#6 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/controllers/Catalog/ProductController.php(92): Mage_Core_Model_Abstract->load(159)
+#7 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Adminhtml/controllers/Catalog/ProductController.php(238): Mage_Adminhtml_Catalog_ProductController->_initProduct()
+#8 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_Catalog_ProductController->editAction()
+#9 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#10 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/code/core/Mage/Core/Model/App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#12 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/app/Mage.php(686): Mage_Core_Model_App->run(Array)
+#13 /Users/Vanssiler/Desktop/TRABALHOS/SMARTUX/CLIENTES/EVOLUTION NUTRITION/evolution_new/index.php(83): Mage::run('', 'store')
+#14 {main}
