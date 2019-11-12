@@ -9,7 +9,7 @@ $categories = $category->getCollection()
 <div class="menu__wrapper">
     <div class="menu__header">
         <?php if (Mage::getSingleton('customer/session')->isLoggedIn()) : ?>
-            <div class="customer-links"><i class="icon-user"></i>Olá <?php echo $customer->getFirstname(); ?> <span class="icon icon-down"></span></div>
+            <div class="customer-links"><a href="<?php echo Mage::getUrl('customer/account/login'); ?>"><i class="icon-user"></i>Olá <?php echo $customer->getFirstname(); ?> </a></div>
             <?php echo $this->getChildHtml('topLinks') ?>
         <?php else :?>
             <div class="customer-links"><a href="<?php echo Mage::getUrl('customer/account/login'); ?>"><i class="icon-user"></i> Minha conta</a></div>

@@ -55,7 +55,7 @@
 
 .headermenu{position: relative; z-index: 900}
 .topmenu{margin-left: 50px; display: block}
-#topmenu{display: -webkit-box; display: -ms-flexbox; display: -moz-flex; display: -webkit-flex; display: flex; -webkit-flex-flow: row wrap; flex-flow: row wrap; -ms-flex-align: center; -webkit-align-items: center; align-items: center;}
+#topmenu{display: -webkit-box; display: -ms-flexbox; display: -moz-flex; display: -webkit-flex; display: flex; -webkit-flex-flow: row wrap; flex-flow: row wrap; -ms-flex-align: center; -webkit-align-items: center; align-items: center; max-height: 50px; overflow: hidden;}
 #topmenu li.level0{-webkit-flex: 1 1 auto; flex: 1 1 auto; position: relative}
 #topmenu li.level0 > a{color: #fff; text-transform: uppercase; font-weight: 600; height: 50px; display: block; display: -webkit-box; display: -ms-flexbox; display: -moz-flex; display: -webkit-flex; display: flex; -ms-flex-align: center; -webkit-align-items: center; align-items: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center;}
 #topmenu li.level0 > a:hover,
